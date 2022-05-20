@@ -18,8 +18,8 @@ public class LabelesTest {
 
     @Test
     public void testCode() {
-        Allure.label("Owner", "vaulin1506"); //так же как в уроке, но в отчете не отображается
-        Allure.label("Severity", SeverityLevel.CRITICAL.value()); //то же что и в строке 31
+        Allure.label("owner", "vaulin1506"); //так же как в уроке, но в отчете не отображается
+        Allure.label("severity", SeverityLevel.CRITICAL.value()); //то же что и в строке 31
         Allure.feature("Задачи");
         Allure.story("Просмотр задач");
         Allure.link("testing", "https://github.com");
